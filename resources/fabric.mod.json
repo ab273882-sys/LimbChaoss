@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "limbchaos",
+  "version": "${version}",
+  "name": "Limb Chaos",
+  "description": "A silly limb-removal and limb-item mod.",
+  "authors": ["OpenAI"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.limbchaos.LimbChaos"],
+    "client": ["com.limbchaos.client.LimbChaosClient"]
+  },
+  "mixins": ["limbchaos.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

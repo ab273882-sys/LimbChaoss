@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "com.limbchaos.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["PlayerEntityModelMixin", "InventoryScreenMixin", "InventoryScreenInvoker"],
+  "injectors": { "defaultRequire": 0 }
+}
